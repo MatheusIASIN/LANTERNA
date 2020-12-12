@@ -1,0 +1,46 @@
+  Configurando os módulos do Node.js com o npm e o package.json
+  pré-instalação de dependencias e pacotes que xiliaram na construção dessa aplicação
+  estão sendo utilizadas as tecnologias:
+  node.js 
+  NPM
+  YARN
+  BOOTSTRAP
+  JAVASCRIPT
+ 
+  A PRIMEIRA INSTALAÇÃO FEITA NO LINUX É O NODE.JS VERSÃO LTS GERENCIADOR DE PACOTES
+  NO TERMINAL DO LINUX
+
+  PARA INSTALAR O NODE.JS,npm,yarn
+
+$ sudo apt install nodejs
+$ sudo apt install npm
+$ sudo apt install yarn
+
+  Em seguida atualize
+
+$ sudo apt-get update
+
+  Logo após verifique a versão usando  -V
+
+node -v
+npm  -v
+yarn -v
+
+  Proximo passo é cria a pasta
+
+$ mkdir XXXXXXX 
+$ cd    XXXXXXX
+
+  Dentro da do directorio execute o comando
+
+$ npm init
+  
+  Utilizará a biblioteca axios, que ajudará você a fazer solicitações HTTP. Instale-a digitando o seguinte em seu shell:
+
+$ npm install axios --save
+ 
+  Instale um linter como uma dependência de desenvolvimento para seu projeto. Experimente isto em seu shell:
+
+$ npm i eslint@6.0.0 --save-dev
+
+  
