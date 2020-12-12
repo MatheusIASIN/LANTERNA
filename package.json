@@ -1,0 +1,17 @@
+{
+  "name": "lanterna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "Jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0"
+  }
+}
